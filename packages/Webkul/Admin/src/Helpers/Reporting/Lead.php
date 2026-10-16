@@ -53,6 +53,11 @@ class Lead extends AbstractReporting
             $this->pipeline = $this->pipelineRepository->getDefaultPipeline();
         }
 
+        if (! $this->pipeline) {
+            $this->pipeline = new \Webkul\Lead\Models\Pipeline();
+            $this->pipeline->stages = collect();
+        }
+
         $stages = $this->pipeline->stages;
 
         $this->allStageIds = $stages->pluck('id')->toArray();

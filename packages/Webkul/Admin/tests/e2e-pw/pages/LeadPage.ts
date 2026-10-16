@@ -62,7 +62,7 @@ export class LeadPage extends CoreLocators {
         await this.descriptionTextarea.fill(leadData.description);
         await this.sourceDropdown.selectOption("1");
         await this.typeDropdown.selectOption("1");
-        await this.userDropdown.selectOption("1");
+        await this.userDropdown.selectOption({ index: 0 });
         await this.leadValueInput.fill(leadData.value);
 
         await this.addPersonButton.click();
@@ -112,7 +112,7 @@ export class LeadPage extends CoreLocators {
         await this.descriptionTextarea.fill(leadData.description);
         await this.sourceDropdown.selectOption("1");
         await this.typeDropdown.selectOption("1");
-        await this.userDropdown.selectOption("1");
+        await this.userDropdown.selectOption({ index: 0 });
         await this.leadValueInput.fill("1000");
              // await this.leadProductAddMoreButton.click();
         await this.leadProductSelect.click();

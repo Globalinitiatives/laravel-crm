@@ -1,0 +1,16 @@
+FROM node:20-bookworm
+
+WORKDIR /app
+
+# Copy test files first for better caching
+COPY packages/Webkul/Admin/tests/e2e-pw/ ./tests/e2e-pw/
+
+# Install Playwright test runner + Chromium (with system deps via --with-deps)
+RUN npm install -g @playwright/test@^1.63.0 && npx playwright install --with-deps chromium
+
+# Copy rest of source for config resolution
+COPY . .
+
+WORKDIR /app/packages/Webkul/Admin/tests/e2e-pw
+
+CMD ["npx", "playwright", "test"]

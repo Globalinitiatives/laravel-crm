@@ -2,6 +2,10 @@
 
 This changelog consists of the bug & security fixes and new features being included in the releases listed below.
 
+## **v2.2.7 (Upcoming)**
+
+* [fixed] Fixed a potential null reference in the Lead model `rotten_days` accessor when a lead has no pipeline assigned.
+
 ## **v2.2.6 (10th of Sept 2026)**
 
 * [security] Improved in Security.

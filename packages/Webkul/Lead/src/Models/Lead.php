@@ -158,6 +158,10 @@ class Lead extends Model implements LeadContract
             return 0;
         }
 
+
+        if (! $this->pipeline) {
+            return 0;
+        }
         if (in_array($this->stage->code, ['won', 'lost'])) {
             return 0;
         }
