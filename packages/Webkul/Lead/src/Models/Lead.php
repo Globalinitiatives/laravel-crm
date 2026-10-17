@@ -158,7 +158,6 @@ class Lead extends Model implements LeadContract
             return 0;
         }
 
-
         if (! $this->pipeline) {
             return 0;
         }

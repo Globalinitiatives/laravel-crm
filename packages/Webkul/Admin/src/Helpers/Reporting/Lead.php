@@ -4,6 +4,7 @@ namespace Webkul\Admin\Helpers\Reporting;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
+use Webkul\Lead\Models\Pipeline;
 use Webkul\Lead\Repositories\LeadRepository;
 use Webkul\Lead\Repositories\PipelineRepository;
 use Webkul\Lead\Repositories\StageRepository;
@@ -54,7 +55,7 @@ class Lead extends AbstractReporting
         }
 
         if (! $this->pipeline) {
-            $this->pipeline = new \Webkul\Lead\Models\Pipeline();
+            $this->pipeline = new Pipeline;
             $this->pipeline->stages = collect();
         }
 
