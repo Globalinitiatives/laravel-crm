@@ -2247,17 +2247,17 @@ return [
     'help' => [
         'index' => [
             'title' => 'Trợ giúp & Tài nguyên',
-            'description' => 'Mọi thứ bạn cần để tận dụng tối đa Krayin Admin — lưu trữ, hỗ trợ và dịch vụ chuyên nghiệp, cùng với tiện ích mở rộng và tài liệu dành cho nhà phát triển.',
+            'description' => 'Mọi thứ bạn cần để tận dụng tối đa UpDesk Admin — lưu trữ, hỗ trợ và dịch vụ chuyên nghiệp, cùng với tiện ích mở rộng và tài liệu dành cho nhà phát triển.',
             'contact-us' => 'Liên hệ với chúng tôi',
             'view-all' => 'Xem tất cả',
             'still-need-help-title' => 'Vẫn cần trợ giúp?',
-            'still-need-help-description' => 'Trao đổi với đội ngũ Krayin về lưu trữ, phát triển tùy chỉnh hoặc bất kỳ vấn đề nào khác.',
+            'still-need-help-description' => 'Trao đổi với đội ngũ UpDesk về lưu trữ, phát triển tùy chỉnh hoặc bất kỳ vấn đề nào khác.',
 
             'services' => [
                 'title' => 'Dịch vụ & Tài nguyên',
                 'cloud-hosting' => [
                     'title' => 'Lưu trữ đám mây',
-                    'description' => 'Dịch vụ lưu trữ đám mây được quản lý, tiết kiệm chi phí — dùng thử và khởi chạy Krayin trên đám mây trong vài phút, được tối ưu hóa toàn diện và có khả năng mở rộng.',
+                    'description' => 'Dịch vụ lưu trữ đám mây được quản lý, tiết kiệm chi phí — dùng thử và khởi chạy UpDesk trên đám mây trong vài phút, được tối ưu hóa toàn diện và có khả năng mở rộng.',
                 ],
                 'support' => [
                     'title' => 'Hỗ trợ & Bảo trì',
@@ -2265,7 +2265,7 @@ return [
                 ],
                 'extensions' => [
                     'title' => 'Tiện ích mở rộng',
-                    'description' => 'Duyệt các tiện ích bổ sung chính thức và từ cộng đồng để mở rộng Krayin với các trình kết nối, kênh và tính năng mới.',
+                    'description' => 'Duyệt các tiện ích bổ sung chính thức và từ cộng đồng để mở rộng UpDesk với các trình kết nối, kênh và tính năng mới.',
                 ],
             ],
 
@@ -2281,14 +2281,14 @@ return [
                 ],
                 'api-docs' => [
                     'title' => 'Tài liệu API',
-                    'description' => 'Tài liệu tham khảo API REST đầy đủ với các điểm cuối, xác thực và ví dụ để tích hợp Krayin vào hệ thống của bạn.',
+                    'description' => 'Tài liệu tham khảo API REST đầy đủ với các điểm cuối, xác thực và ví dụ để tích hợp UpDesk vào hệ thống của bạn.',
                 ],
             ],
 
             'community' => [
                 'forums' => [
                     'title' => 'Diễn đàn cộng đồng',
-                    'description' => 'Kết nối với hàng nghìn người dùng và nhà phát triển Krayin khác để chia sẻ mẹo và giải quyết vấn đề.',
+                    'description' => 'Kết nối với hàng nghìn người dùng và nhà phát triển UpDesk khác để chia sẻ mẹo và giải quyết vấn đề.',
                     'link' => 'Tham gia cộng đồng',
                 ],
                 'tutorials' => [

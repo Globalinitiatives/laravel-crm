@@ -13,7 +13,7 @@ export type ProductData = {
 /**
  * Build a product with a SKU unique to this call.
  *
- * SKU is unique in Krayin, so two products built from one shared object cannot both be saved. The
+ * SKU is unique in UpDesk, so two products built from one shared object cannot both be saved. The
  * product, lead and quote specs each create a product, so each needs its own instance — sharing one
  * makes whichever spec runs later fail on the product step.
  */

@@ -1,12 +1,12 @@
 ---
 name: pest-testing
-description: Use when writing or updating Krayin CRM tests (unit or feature), debugging test failures, using datasets, mocks or custom expectations, writing architecture tests, or when the user mentions test, spec, TDD, expects, assertion, or coverage. Uses the Pest PHP framework (v3) with Laravel 12.
+description: Use when writing or updating UpDesk CRM tests (unit or feature), debugging test failures, using datasets, mocks or custom expectations, writing architecture tests, or when the user mentions test, spec, TDD, expects, assertion, or coverage. Uses the Pest PHP framework (v3) with Laravel 12.
 license: MIT
 metadata:
   author: webkul
 ---
 
-# Pest Testing in Krayin CRM
+# Pest Testing in UpDesk CRM
 
 ## When to Apply
 
@@ -17,11 +17,11 @@ Activate this skill when:
 - Writing architecture or convention tests
 - The user mentions test, spec, TDD, expects, assertion, coverage, or verifying behavior
 
-## Krayin Testing Structure
+## UpDesk Testing Structure
 
 ### Test Locations
 
-Krayin tests are stored in the root `tests/` directory:
+UpDesk tests are stored in the root `tests/` directory:
 
 ```
 /tests
@@ -125,8 +125,8 @@ Prefer specific response helpers:
 it('has valid emails', function (string $email) {
     expect($email)->toContain('@');
 })->with([
-    'james' => 'james@krayin.com',
-    'john'  => 'john@krayin.com',
+    'james' => 'james@updesk.com',
+    'john'  => 'john@updesk.com',
 ]);
 ```
 

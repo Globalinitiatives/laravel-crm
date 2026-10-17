@@ -164,7 +164,7 @@ class InstallerController extends Controller
     {
         $filePath = storage_path('installed');
 
-        File::put($filePath, 'Your Krayin App is Successfully Installed');
+        File::put($filePath, 'Your UpDesk App is Successfully Installed');
 
         /**
          * Recorded in the database as well as on disk, so losing the marker file cannot reopen the

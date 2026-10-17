@@ -1,9 +1,9 @@
 <p align="center">
-    <a href="https://krayincrm.com">
+    <a href="https://updeskcrm.com">
         <picture>
             <source media="(prefers-color-scheme: dark)" height="100" srcset="packages/Webkul/Admin/src/Resources/assets/images/dark-logo.svg">
             <source media="(prefers-color-scheme: light)" height="100" srcset="packages/Webkul/Admin/src/Resources/assets/images/logo.svg">
-            <img alt="Krayin CRM" height="100" src="packages/Webkul/Admin/src/Resources/assets/images/logo.svg">
+            <img alt="UpDesk CRM" height="100" src="packages/Webkul/Admin/src/Resources/assets/images/logo.svg">
         </picture>
     </a>
 </p>
@@ -23,24 +23,24 @@
 2. [Documentation](#documentation)
 3. [Requirements](#requirements)
 4. [Installation & Configuration](#installation-and-configuration)
-4. [Docker Installation](https://devdocs.krayincrm.com/2.0/introduction/docker.html)
-5. [Krayin Cloud System](#krayin-cloud-hosting)
+4. [Docker Installation](https://devdocs.updeskcrm.com/2.0/introduction/docker.html)
+5. [UpDesk Cloud System](#krayin-cloud-hosting)
 6. [License](#license)
 7. [Security Vulnerabilities](#security-vulnerabilities)
 
 ### Introduction
 
-[Krayin CRM](https://krayincrm.com) is a hand tailored CRM framework built on some of the hottest opensource technologies
+[UpDesk CRM](https://updeskcrm.com) is a hand tailored CRM framework built on some of the hottest opensource technologies
 such as [Laravel](https://laravel.com) (a [PHP](https://secure.php.net/) framework) and [Vue.js](https://vuejs.org)
 a progressive Javascript framework.
 
 **Free & Opensource Laravel CRM solution for SMEs and Enterprises for complete customer lifecycle management.**
 
-**Read our documentation: [Krayin CRM Docs](https://devdocs.krayincrm.com/)**
+**Read our documentation: [UpDesk CRM Docs](https://devdocs.updeskcrm.com/)**
 
-**We also have a forum for any type of concerns, feature requests, or discussions. Please visit: [Krayin CRM Forums](https://forums.krayincrm.com/)**
+**We also have a forum for any type of concerns, feature requests, or discussions. Please visit: [UpDesk CRM Forums](https://forums.updeskcrm.com/)**
 
-# Visit our live [Demo](https://demo.krayincrm.com)
+# Visit our live [Demo](https://demo.updeskcrm.com)
 
 <a href="javascript:void();">
     <img class="flag-img" src="https://raw.githubusercontent.com/krayin/temp-media/master/visit-our-live-demo.png" alt="Chinese" width="100%">
@@ -53,14 +53,14 @@ It packs in lots of features that will allow your E-Commerce business to scale i
 -   Custom Attributes.
 -   Built on Modular Approach.
 -   Email parsing via Sendgrid.
--   Check out [these features and more](https://krayincrm.com/features/).
+-   Check out [these features and more](https://updeskcrm.com/features/).
 
 **For Developers**:
-Take advantage of two of the hottest frameworks used in this project -- Laravel and Vue.js -- both of which have been used in Krayin CRM.
+Take advantage of two of the hottest frameworks used in this project -- Laravel and Vue.js -- both of which have been used in UpDesk CRM.
 
 ### Documentation
 
-#### Krayin Documentation [https://devdocs.krayincrm.com](https://devdocs.krayincrm.com)
+#### UpDesk Documentation [https://devdocs.updeskcrm.com](https://devdocs.updeskcrm.com)
 
 ### Requirements
 
@@ -87,7 +87,7 @@ composer create-project
 php artisan krayin-crm:install
 ```
 
-**To execute Krayin**:
+**To execute UpDesk**:
 
 ##### On server:
 
@@ -117,36 +117,36 @@ email:admin@example.com
 password:admin123
 ```
 
-### Krayin Cloud Hosting
+### UpDesk Cloud Hosting
 
-[Krayin CRM Cloud Hosting](https://krayincrm.com/crm-cloud-hosting) is a fully managed hosting solution where our team sets up, secures, and configures your Krayin CRM on reliable infrastructure.
+[UpDesk CRM Cloud Hosting](https://updeskcrm.com/crm-cloud-hosting) is a fully managed hosting solution where our team sets up, secures, and configures your UpDesk CRM on reliable infrastructure.
 
 Get a ready-to-use CRM on your own domain, without manual installation or infrastructure complexity, and focus on growing your business while we handle the technology.
 
-![Krayin CRM Cloud Hosting](https://raw.githubusercontent.com/krayin/temp-media/master/cloud_hosting.png)
+![UpDesk CRM Cloud Hosting](https://raw.githubusercontent.com/krayin/temp-media/master/cloud_hosting.png)
 
-### Krayin CRM Multi Tenant SaaS
+### UpDesk CRM Multi Tenant SaaS
 
-[Krayin CRM Multi Tenant SaaS](https://krayincrm.com/extensions/krayin-crm-multi-tenant-saas-extension/) Krayin Multitenant SaaS is a Laravel-based CRM solution that allows multiple businesses (tenants) to use a single application instance while keeping their data isolated and secure.
+[UpDesk CRM Multi Tenant SaaS](https://updeskcrm.com/extensions/krayin-crm-multi-tenant-saas-extension/) UpDesk Multitenant SaaS is a Laravel-based CRM solution that allows multiple businesses (tenants) to use a single application instance while keeping their data isolated and secure.
 
 ![enter image description here](https://raw.githubusercontent.com/krayin/temp-media/master/krayin-saas.png)
 
 ### WhatsApp CRM Integration
 
-[Krayin CRM WhatsApp](https://krayincrm.com/extensions/krayin-crm-whatsapp-extension/) Extension enables the store administrator to generate leads via their WhatsApp number.
+[UpDesk CRM WhatsApp](https://updeskcrm.com/extensions/krayin-crm-whatsapp-extension/) Extension enables the store administrator to generate leads via their WhatsApp number.
 
 ![enter image description here](https://raw.githubusercontent.com/krayin/temp-media/master/krayin-crm-whatsapp-integration.png)
 
 ### VoIP CRM Integration
 
-[Krayin CRM VoIP](https://krayincrm.com/extensions/krayin-crm-voip/) extension allows the user to make Trunk calls over a broadband Internet connection and the user can also perform Inbound routes.
+[UpDesk CRM VoIP](https://updeskcrm.com/extensions/krayin-crm-voip/) extension allows the user to make Trunk calls over a broadband Internet connection and the user can also perform Inbound routes.
 
 ![enter image description here](https://raw.githubusercontent.com/krayin/temp-media/master/krayin-voip.png)
 
 ### License
 
-Krayin CRM is a fully open-source CRM framework which will always be free under the [MIT License](https://github.com/krayin/laravel-crm/blob/2.1/LICENSE).
+UpDesk CRM is a fully open-source CRM framework which will always be free under the [MIT License](https://github.com/krayin/laravel-crm/blob/2.1/LICENSE).
 
 ### Security Vulnerabilities
 
-Please don't disclose security vulnerabilities publicly. If you find any security vulnerability in Krayin CRM then please email us: sales@krayincrm.com.
+Please don't disclose security vulnerabilities publicly. If you find any security vulnerability in UpDesk CRM then please email us: sales@updesk.com.

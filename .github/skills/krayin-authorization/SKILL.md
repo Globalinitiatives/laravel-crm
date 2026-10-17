@@ -1,16 +1,16 @@
 ---
-name: krayin-authorization
-description: Understand, implement, debug, review, and test Krayin CRM branch 2.2 authorization. Covers ACL permissions, roles, Bouncer middleware, route-to-permission mapping, view permissions, data scoping, role privilege ceilings, user authorization, and authorization security testing.
+name: updesk-authorization
+description: Understand, implement, debug, review, and test UpDesk CRM branch 2.2 authorization. Covers ACL permissions, roles, Bouncer middleware, route-to-permission mapping, view permissions, data scoping, role privilege ceilings, user authorization, and authorization security testing.
 license: MIT
 metadata:
   author: webkul
 ---
 
-# Krayin CRM 2.2 Authorization Skill
+# UpDesk CRM 2.2 Authorization Skill
 
 ## Purpose
 
-This skill defines the authorization architecture used by Krayin CRM
+This skill defines the authorization architecture used by UpDesk CRM
 branch 2.2.
 
 Use this skill whenever a task involves:
@@ -95,7 +95,7 @@ User::hasPermission()
 
 # 1. Authorization Model
 
-Krayin authorization is not represented by a single permission field.
+UpDesk authorization is not represented by a single permission field.
 
 There are two separate authorization dimensions.
 
@@ -206,7 +206,7 @@ The ACL configuration maps routes to permission keys.
 Always inspect the existing configuration before adding a new
 permission.
 
-Do not invent a new naming convention if an established Krayin
+Do not invent a new naming convention if an established UpDesk
 convention already exists.
 
 ---
@@ -283,13 +283,13 @@ Controller
 ```
 
 The exact implementation must always be verified against
-the current Krayin branch before modifying authorization code.
+the current UpDesk branch before modifying authorization code.
 
 ---
 
 # 6. Administrator Behavior
 
-Krayin supports an administrator/full-permission role through:
+UpDesk supports an administrator/full-permission role through:
 
 ```text
 permission_type = all
@@ -627,7 +627,7 @@ When modifying record creation:
 6. Verify individual users.
 7. Add regression tests.
 
-Never assume all Krayin entities use the same ownership mechanism.
+Never assume all UpDesk entities use the same ownership mechanism.
 
 ---
 
@@ -1056,7 +1056,7 @@ For non-administrators, never silently broaden privileges.
 
 # 28. Code Review Rules
 
-When reviewing a Krayin authorization PR:
+When reviewing a UpDesk authorization PR:
 
 Check:
 
@@ -1130,7 +1130,7 @@ Follow these principles for every authorization change:
 7. Treat data scope separately from action permissions.
 8. Validate direct requests.
 9. Add regression tests for authorization bugs.
-10. Follow existing Krayin branch 2.2 patterns.
+10. Follow existing UpDesk branch 2.2 patterns.
 11. Inspect actual implementation before making architectural assumptions.
 12. Prefer the smallest safe change.
 
@@ -1138,7 +1138,7 @@ Follow these principles for every authorization change:
 
 # 31. Expected Agent Behavior
 
-When asked to modify Krayin authorization:
+When asked to modify UpDesk authorization:
 
 1. Inspect the existing implementation.
 2. Identify the authorization layer involved.
@@ -1159,7 +1159,7 @@ When asked to modify Krayin authorization:
 9. Check for privilege escalation.
 10. Report any assumptions explicitly.
 
-Never invent Krayin classes, routes, permission keys, or database
+Never invent UpDesk classes, routes, permission keys, or database
 behavior.
 
 Always verify them against the branch 2.2 source.
@@ -1182,13 +1182,13 @@ An authorization feature is complete only when:
 * [ ] Scope escalation is prevented where applicable.
 * [ ] Regression tests exist.
 * [ ] Existing functionality is not unintentionally restricted.
-* [ ] Code follows Krayin branch 2.2 conventions.
+* [ ] Code follows UpDesk branch 2.2 conventions.
 
 ---
 
 # 33. Canonical Authorization Flow
 
-Use this flow when explaining Krayin 2.2 authorization:
+Use this flow when explaining UpDesk 2.2 authorization:
 
 ```text
 USER

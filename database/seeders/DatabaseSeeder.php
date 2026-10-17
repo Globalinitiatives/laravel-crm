@@ -3,7 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Webkul\Installer\Database\Seeders\DatabaseSeeder as KrayinDatabaseSeeder;
+use Webkul\Installer\Database\Seeders\DatabaseSeeder as UpDeskDatabaseSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -14,6 +14,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(KrayinDatabaseSeeder::class);
+        $this->call(UpDeskDatabaseSeeder::class);
     }
 }

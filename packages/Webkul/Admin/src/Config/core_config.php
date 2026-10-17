@@ -70,7 +70,7 @@ return [
                 'title' => 'admin::app.configuration.index.general.settings.footer.powered-by',
                 'type' => 'editor',
                 'depends' => 'show:1',
-                'default' => 'Powered by <span style="color: rgb(14, 144, 217);"><a href="http://www.krayincrm.com" target="_blank">Krayin</a></span>, an open-source project by <span style="color: rgb(14, 144, 217);"><a href="https://webkul.com" target="_blank">Webkul</a></span>.',
+                'default' => 'Powered by <span style="color: rgb(14, 144, 217);"><a href="https://updeskcrm.com" target="_blank">UpDesk</a></span>.',
                 'tinymce' => true,
             ],
         ],

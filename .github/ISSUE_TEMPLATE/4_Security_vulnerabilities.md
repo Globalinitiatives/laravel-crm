@@ -1,9 +1,9 @@
 ---
 name: "🔒 Security Vulnerabilities"
-about: 'For reporting security-related issues, see: https://github.com/krayin/laravel-crm#security-vulnerabilities'
+about: 'For reporting security-related issues, see: https://github.com/updesk/laravel-crm#security-vulnerabilities'
 ---
 
 PLEASE DON'T DISCLOSE SECURITY-RELATED ISSUES PUBLICLY, SEE BELOW.
 
-If you have security vulnerability to address related to Krayin then please write a mail to us:
-**support@krayincrm.com**
+If you have security vulnerability to address related to UpDesk then please write a mail to us:
+**support@updeskcrm.com**

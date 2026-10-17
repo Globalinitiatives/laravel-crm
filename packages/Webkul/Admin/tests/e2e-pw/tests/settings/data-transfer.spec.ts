@@ -62,7 +62,7 @@ test.describe("data transfer lead management",async()=>{
         await person.navigageToPersonsPage();
 
         /**
-         * Its own person: email and contact number are unique in Krayin, so sharing one object with
+         * Its own person: email and contact number are unique in UpDesk, so sharing one object with
          * the person, lead and quote specs makes whichever runs later fail validation.
          */
         await person.createPerson(buildPersonData());

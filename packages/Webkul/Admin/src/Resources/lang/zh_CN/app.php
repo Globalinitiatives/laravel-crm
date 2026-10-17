@@ -2247,16 +2247,16 @@ return [
     'help' => [
         'index' => [
             'title' => '帮助与资源',
-            'description' => '充分发挥 Krayin 管理面板价值所需的一切——托管服务、技术支持与专业服务，以及扩展和开发者文档。',
+            'description' => '充分发挥 UpDesk 管理面板价值所需的一切——托管服务、技术支持与专业服务，以及扩展和开发者文档。',
             'contact-us' => '联系我们',
             'view-all' => '查看全部',
             'still-need-help-title' => '仍需帮助？',
-            'still-need-help-description' => '就托管、定制开发或其他任何问题与 Krayin 团队交流。',
+            'still-need-help-description' => '就托管、定制开发或其他任何问题与 UpDesk 团队交流。',
             'services' => [
                 'title' => '服务与资源',
                 'cloud-hosting' => [
                     'title' => '云托管',
-                    'description' => '高性价比的托管式云服务——几分钟内即可在云端试用并上线 Krayin，全面优化且可弹性扩展。',
+                    'description' => '高性价比的托管式云服务——几分钟内即可在云端试用并上线 UpDesk，全面优化且可弹性扩展。',
                 ],
                 'support' => [
                     'title' => '支持与维护',
@@ -2264,7 +2264,7 @@ return [
                 ],
                 'extensions' => [
                     'title' => '扩展',
-                    'description' => '浏览官方与社区插件，为 Krayin 增添新的连接器、渠道和功能。',
+                    'description' => '浏览官方与社区插件，为 UpDesk 增添新的连接器、渠道和功能。',
                 ],
             ],
             'resources' => [
@@ -2279,13 +2279,13 @@ return [
                 ],
                 'api-docs' => [
                     'title' => 'API 文档',
-                    'description' => '完整的 REST API 参考，包含接口、认证方式与示例，助您将 Krayin 集成到您的技术栈中。',
+                    'description' => '完整的 REST API 参考，包含接口、认证方式与示例，助您将 UpDesk 集成到您的技术栈中。',
                 ],
             ],
             'community' => [
                 'forums' => [
                     'title' => '社区论坛',
-                    'description' => '与成千上万的 Krayin 用户和开发者交流，分享经验并解决问题。',
+                    'description' => '与成千上万的 UpDesk 用户和开发者交流，分享经验并解决问题。',
                     'link' => '加入社区',
                 ],
                 'tutorials' => [

@@ -130,7 +130,7 @@ return [
         'index' => [
             'create-administrator' => [
                 'admin' => '管理者',
-                'krayin' => 'Krayin',
+                'krayin' => 'UpDesk',
                 'confirm-password' => 'パスワード（確認）',
                 'email' => 'メールアドレス',
                 'email-address' => 'admin@example.com',
@@ -145,7 +145,7 @@ return [
                 'application-name' => 'アプリケーション名',
                 'argentine-peso' => 'アルゼンチン・ペソ (ARS)',
                 'australian-dollar' => 'オーストラリア・ドル (AUD)',
-                'krayin' => 'Krayin',
+                'krayin' => 'UpDesk',
                 'bangladeshi-taka' => 'バングラデシュ・タカ (BDT)',
                 'brazilian-real' => 'ブラジル・レアル (BRL)',
                 'british-pound-sterling' => '英ポンド (GBP)',
@@ -229,24 +229,24 @@ return [
             ],
 
             'installation-processing' => [
-                'krayin' => 'Krayinのインストール',
+                'krayin' => 'UpDeskのインストール',
                 'krayin-info' => 'データベーステーブルを作成しています。しばらくお待ちください',
                 'title' => 'インストール',
             ],
 
             'installation-completed' => [
                 'admin-panel' => '管理パネル',
-                'krayin-forums' => 'Krayinフォーラム',
+                'krayin-forums' => 'UpDeskフォーラム',
                 'customer-panel' => '顧客パネル',
-                'explore-krayin-extensions' => 'Krayin拡張機能を探す',
+                'explore-krayin-extensions' => 'UpDesk拡張機能を探す',
                 'title' => 'インストール完了',
-                'title-info' => 'Krayinのインストールが正常に完了しました。',
+                'title-info' => 'UpDeskのインストールが正常に完了しました。',
             ],
 
             'ready-for-installation' => [
                 'create-databsae-table' => 'データベーステーブルの作成',
                 'install' => 'インストール',
-                'install-info' => 'Krayinのインストール',
+                'install-info' => 'UpDeskのインストール',
                 'install-info-button' => '下のボタンをクリックして',
                 'populate-database-table' => 'データベーステーブルへの初期データ投入',
                 'start-installation' => 'インストールを開始',
@@ -257,8 +257,8 @@ return [
                 'locale' => '言語',
                 'main' => '開始',
                 'select-locale' => '言語を選択',
-                'title' => 'Krayinのインストール',
-                'welcome-title' => 'Krayinへようこそ',
+                'title' => 'UpDeskのインストール',
+                'welcome-title' => 'UpDeskへようこそ',
             ],
 
             'server-requirements' => [
@@ -285,15 +285,15 @@ return [
             ],
 
             'back' => '戻る',
-            'krayin' => 'Krayin',
+            'krayin' => 'UpDesk',
             'krayin-info' => 'コミュニティプロジェクト by',
-            'krayin-logo' => 'Krayinロゴ',
+            'krayin-logo' => 'UpDeskロゴ',
             'continue' => '続行',
-            'installation-description' => 'Krayinのインストールは通常いくつかのステップで行います。以下はKrayinのインストール手順の概要です',
+            'installation-description' => 'UpDeskのインストールは通常いくつかのステップで行います。以下はUpDeskのインストール手順の概要です',
             'installation-info' => 'ようこそ！お会いできてうれしいです。',
             'installation-title' => 'インストールへようこそ',
             'installation-wizard' => 'インストールウィザードの言語',
-            'title' => 'Krayinインストーラー',
+            'title' => 'UpDeskインストーラー',
             'webkul' => 'Webkul',
         ],
     ],

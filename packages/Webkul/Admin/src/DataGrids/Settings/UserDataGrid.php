@@ -39,7 +39,7 @@ class UserDataGrid extends DataGrid
             ->groupBy('users.id');
 
         /**
-         * Scope the listing to the acting user's data scope, mirroring how Krayin scopes lead and
+         * Scope the listing to the acting user's data scope, mirroring how UpDesk scopes lead and
          * contact records by their owner. A `global` scope (or a full administrator) returns null and
          * sees every user; a `group` scope sees the users belonging to their group; an `individual`
          * scope sees the users they created together with their own account. What a user may then edit

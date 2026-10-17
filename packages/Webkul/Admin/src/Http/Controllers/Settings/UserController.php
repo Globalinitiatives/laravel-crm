@@ -119,7 +119,7 @@ class UserController extends Controller
 
         /**
          * Record who created the account so the listing can scope it by ownership (a user with the
-         * `individual` data scope sees only the users they created), mirroring how Krayin scopes
+         * `individual` data scope sees only the users they created), mirroring how UpDesk scopes
          * lead and contact records by their owner.
          */
         $data['created_by'] = auth()->guard('user')->id();

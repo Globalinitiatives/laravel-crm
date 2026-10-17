@@ -1,13 +1,13 @@
 ---
 name: crm-package-development
-description: Use when creating a new Krayin CRM package or module, extending CRM functionality via a package, or adding custom business logic without modifying core files. Also use for any translation work — adding or moving lang files, adding a locale, or deciding whether a package gets its own Resources/lang directory — and whenever a fix or feature needs a CHANGELOG.md entry. Covers Laravel package structure, service providers, migrations, models, repositories, routes, controllers, views, localization, changelog entries, config, ACL, and menus.
+description: Use when creating a new UpDesk CRM package or module, extending CRM functionality via a package, or adding custom business logic without modifying core files. Also use for any translation work — adding or moving lang files, adding a locale, or deciding whether a package gets its own Resources/lang directory — and whenever a fix or feature needs a CHANGELOG.md entry. Covers Laravel package structure, service providers, migrations, models, repositories, routes, controllers, views, localization, changelog entries, config, ACL, and menus.
 ---
 
-# Skill: CRM Package Development (Krayin CRM)
+# Skill: CRM Package Development (UpDesk CRM)
 
 ## Purpose
 This skill guides the AI agent to design and develop a new CRM package
-(module) for Krayin CRM in a clean, upgrade-safe, and maintainable way.
+(module) for UpDesk CRM in a clean, upgrade-safe, and maintainable way.
 
 ---
 
@@ -23,15 +23,15 @@ Activate this skill when the user wants to:
 
 ## Project Context
 - Framework: Laravel
-- Product: Krayin CRM
-- Krayin CRM is already installed and running
+- Product: UpDesk CRM
+- UpDesk CRM is already installed and running
 - The package must integrate seamlessly with existing CRM modules
 
 ---
 
 ## Development Rules
-- Follow Krayin CRM architecture and conventions
-- Do NOT modify core Krayin files unless explicitly required
+- Follow UpDesk CRM architecture and conventions
+- Do NOT modify core UpDesk files unless explicitly required
 - Use Laravel package-based structure
 - All database changes must be done using migrations
 - Ensure backward compatibility and safe upgrades

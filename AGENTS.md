@@ -1,6 +1,6 @@
-# Krayin CRM: Agent Instructions
+# UpDesk CRM: Agent Instructions
 
-This repository ships reusable **agent skills** for developing Krayin CRM. These
+This repository ships reusable **agent skills** for developing UpDesk CRM. These
 instructions apply to all AI coding agents (Claude Code, Codex, Copilot, Cursor,
 Kilo Code, etc.).
 
@@ -8,9 +8,9 @@ Kilo Code, etc.).
 
 ## Framework Context
 
-- **Product:** Krayin CRM (Webkul) — an open-source Laravel CRM.
+- **Product:** UpDesk CRM (Webkul) — an open-source Laravel CRM.
 - **Stack:** Laravel `^12.0`, PHP `^8.3`, Pest `^3.0`, Laravel Pint `^1.18`.
-- **Follow Krayin's own conventions** — use the patterns already present in this
+- **Follow UpDesk's own conventions** — use the patterns already present in this
   repository's modules; do not import patterns from other Laravel products.
 - **Module location:** `packages/Webkul/{ModuleName}/src/`
 - **Core modules (reference implementations):** `Lead`, `Contact`, `Activity`,
@@ -36,7 +36,7 @@ skill content here — keep details in the skills.
 
 ## Critical Conventions (Never Deviate)
 
-- **Never modify core Krayin files** unless explicitly required. Extend behavior
+- **Never modify core UpDesk files** unless explicitly required. Extend behavior
   through a package under `packages/Webkul/`.
 - **All schema changes go through migrations** — never edit the database directly.
 - **Follow the existing module layout** (Providers, Models, Contracts,

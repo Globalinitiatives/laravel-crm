@@ -9,7 +9,7 @@
 ## Upgrading To v2.2 From v2.1
 
 > [!NOTE]
-> We strive to document every potential breaking change. However, as some of these alterations occur in lesser-known sections of Krayin, only a fraction of them may impact your application.
+> We strive to document every potential breaking change. However, as some of these alterations occur in lesser-known sections of UpDesk, only a fraction of them may impact your application.
 
 ### Updating Dependencies
 
@@ -17,13 +17,13 @@
 
 #### PHP 8.3 Required
 
-Krayin CRM v2.2 now requires PHP 8.3 or greater.
+UpDesk CRM v2.2 now requires PHP 8.3 or greater.
 
 ### Laravel 12 Upgrade
 
 **Impact Probability: High**
 
-Krayin CRM v2.2 has been upgraded to Laravel 12, which introduces stricter type checking and modernized date/time handling.
+UpDesk CRM v2.2 has been upgraded to Laravel 12, which introduces stricter type checking and modernized date/time handling.
 
 #### Key Changes
 

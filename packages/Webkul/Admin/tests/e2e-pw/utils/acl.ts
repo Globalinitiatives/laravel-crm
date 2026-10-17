@@ -5,7 +5,7 @@ import { AdminPage } from "../pages/AdminPage";
 /**
  * Shared vocabulary and helpers for the authorization suites.
  *
- * Krayin authorization has two orthogonal dimensions and the helpers below are split along the
+ * UpDesk authorization has two orthogonal dimensions and the helpers below are split along the
  * same seam:
  *
  *   - ACL        -> which actions a role may perform  (roles.permission_type + roles.permissions)
@@ -20,7 +20,7 @@ export const ADMIN_EMAIL = "admin@example.com";
 export const ADMIN_PASSWORD = "admin123";
 
 /**
- * Password handed to every user these suites create. Kept above Krayin's six character minimum.
+ * Password handed to every user these suites create. Kept above UpDesk's six character minimum.
  */
 export const TEST_PASSWORD = "password123";
 

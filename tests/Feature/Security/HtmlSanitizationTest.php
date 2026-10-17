@@ -35,13 +35,13 @@ it('strips script elements and javascript uris', function (string $payload, stri
 
 it('keeps legitimate formatting and target blank links intact', function () {
     $output = $this->sanitizer->sanitizeHtml(
-        '<p>Powered by <a href="https://krayincrm.com" target="_blank">Krayin</a></p>'
+        '<p>Powered by <a href="https://updeskcrm.com" target="_blank">UpDesk</a></p>'
     );
 
     expect($output)->toContain('<p>')
-        ->and($output)->toContain('href="https://krayincrm.com"')
+        ->and($output)->toContain('href="https://updeskcrm.com"')
         ->and($output)->toContain('target="_blank"')
-        ->and($output)->toContain('Krayin');
+        ->and($output)->toContain('UpDesk');
 });
 
 it('returns an empty string for null and blank input', function () {

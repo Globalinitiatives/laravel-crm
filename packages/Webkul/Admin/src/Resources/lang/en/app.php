@@ -337,7 +337,7 @@ return [
         ],
         'layouts' => [
             'powered-by' => [
-                'description' => 'Powered by :krayin, an open-source project by :webkul.',
+                'description' => 'Powered by :krayin.',
             ],
             'header' => [
                 'mega-search' => [
@@ -2249,17 +2249,17 @@ return [
     'help' => [
         'index' => [
             'title' => 'Help & Resources',
-            'description' => 'Everything you need to get the most out of Krayin Admin — hosting, support and professional services, plus extensions and developer documentation.',
+            'description' => 'Everything you need to get the most out of UpDesk Admin — hosting, support and professional services, plus extensions and developer documentation.',
             'contact-us' => 'Contact us',
             'view-all' => 'View all',
             'still-need-help-title' => 'Still need a hand?',
-            'still-need-help-description' => 'Talk to the Krayin team about hosting, custom development or anything else.',
+            'still-need-help-description' => 'Talk to the UpDesk team about hosting, custom development or anything else.',
 
             'services' => [
                 'title' => 'Services & Resources',
                 'cloud-hosting' => [
                     'title' => 'Cloud Hosting',
-                    'description' => 'Cost-effective, managed cloud hosting — try and launch Krayin on the cloud in minutes, fully optimised and scalable.',
+                    'description' => 'Cost-effective, managed cloud hosting — try and launch UpDesk on the cloud in minutes, fully optimised and scalable.',
                 ],
                 'support' => [
                     'title' => 'Support & Maintenance',
@@ -2267,7 +2267,7 @@ return [
                 ],
                 'extensions' => [
                     'title' => 'Extensions',
-                    'description' => 'Browse official and community add-ons to extend Krayin with new connectors, channels and features.',
+                    'description' => 'Browse official and community add-ons to extend UpDesk with new connectors, channels and features.',
                 ],
             ],
 
@@ -2283,14 +2283,14 @@ return [
                 ],
                 'api-docs' => [
                     'title' => 'API Docs',
-                    'description' => 'Full REST API reference with endpoints, authentication and examples to integrate Krayin with your stack.',
+                    'description' => 'Full REST API reference with endpoints, authentication and examples to integrate UpDesk with your stack.',
                 ],
             ],
 
             'community' => [
                 'forums' => [
                     'title' => 'Community Forums',
-                    'description' => 'Connect with thousands of other Krayin users and developers to share tips and solve problems.',
+                    'description' => 'Connect with thousands of other UpDesk users and developers to share tips and solve problems.',
                     'link' => 'Join the community',
                 ],
                 'tutorials' => [

@@ -3,7 +3,7 @@
 return [
     /*
     |--------------------------------------------------------------------------
-    | Krayin Vite Configuration
+    | UpDesk Vite Configuration
     |--------------------------------------------------------------------------
     |
     | Please add your Vite registry here to seamlessly support the `assets` function.

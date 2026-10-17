@@ -14,7 +14,7 @@ export type PersonData = {
 /**
  * Build a person with an email and contact number unique to this call.
  *
- * Both fields are unique in Krayin, so two persons built from one shared object cannot both be
+ * Both fields are unique in UpDesk, so two persons built from one shared object cannot both be
  * saved — the second submit fails with "The value has already been taken." Each spec that creates
  * a person therefore needs its own instance, while keeping that instance stable *within* the spec
  * so the create / edit / delete cases all address the same record.

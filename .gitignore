@@ -35,3 +35,7 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 e2e-trace-results*
+/public/build
+/public/installer/build
+/public/admin/build
+/public/webform/build

@@ -14,7 +14,7 @@ class Core
     use Sanitizer;
 
     /**
-     * The Krayin version.
+     * The UpDesk version.
      *
      * @var string
      */
@@ -32,7 +32,7 @@ class Core
     ) {}
 
     /**
-     * Get the version number of the Krayin.
+     * Get the version number of the UpDesk.
      *
      * @return string
      */

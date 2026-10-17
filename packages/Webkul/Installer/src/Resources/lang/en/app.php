@@ -130,7 +130,7 @@ return [
         'index' => [
             'create-administrator' => [
                 'admin' => 'Admin',
-                'krayin' => 'Krayin',
+                'krayin' => 'UpDesk',
                 'confirm-password' => 'Confirm Password',
                 'email' => 'Email',
                 'email-address' => 'admin@example.com',
@@ -145,7 +145,7 @@ return [
                 'application-name' => 'Application Name',
                 'argentine-peso' => 'Argentine Peso (ARS)',
                 'australian-dollar' => 'Australian Dollar (AUD)',
-                'krayin' => 'Krayin',
+                'krayin' => 'UpDesk',
                 'bangladeshi-taka' => 'Bangladeshi Taka (BDT)',
                 'brazilian-real' => 'Brazilian Real (BRL)',
                 'british-pound-sterling' => 'British Pound Sterling (GBP)',
@@ -229,24 +229,24 @@ return [
             ],
 
             'installation-processing' => [
-                'krayin' => 'Installation Krayin',
+                'krayin' => 'Installation UpDesk',
                 'krayin-info' => 'Creating the database tables, this can take a few moments',
                 'title' => 'Installation',
             ],
 
             'installation-completed' => [
                 'admin-panel' => 'Admin Panel',
-                'krayin-forums' => 'Krayin Forum',
+                'krayin-forums' => 'GrayElement Forum',
                 'customer-panel' => 'Customer Panel',
-                'explore-krayin-extensions' => 'Explore Krayin Extension',
+                'explore-krayin-extensions' => 'Explore UpDesk Extension',
                 'title' => 'Installation Completed',
-                'title-info' => 'Krayin is Successfully installed on your system.',
+                'title-info' => 'UpDesk is Successfully installed on your system.',
             ],
 
             'ready-for-installation' => [
                 'create-databsae-table' => 'Create the database table',
                 'install' => 'Installation',
-                'install-info' => 'Krayin For Installation',
+                'install-info' => 'UpDesk For Installation',
                 'install-info-button' => 'Click the button below to',
                 'populate-database-table' => 'Populate the database tables',
                 'start-installation' => 'Start Installation',
@@ -257,8 +257,8 @@ return [
                 'locale' => 'Locale',
                 'main' => 'Start',
                 'select-locale' => 'Select Locale',
-                'title' => 'Your Krayin install',
-                'welcome-title' => 'Welcome to Krayin',
+                'title' => 'Your UpDesk install',
+                'welcome-title' => 'Welcome to UpDesk',
             ],
 
             'server-requirements' => [
@@ -285,16 +285,16 @@ return [
             ],
 
             'back' => 'Back',
-            'krayin' => 'Krayin',
+            'krayin' => 'UpDesk',
             'krayin-info' => 'a Community Project by',
-            'krayin-logo' => 'Krayin Logo',
+            'krayin-logo' => 'UpDesk Logo',
             'continue' => 'Continue',
-            'installation-description' => 'Krayin installation typically involves several steps. Here\'s a general outline of the installation process for Krayin',
+            'installation-description' => 'UpDesk installation typically involves several steps. Here\'s a general outline of the installation process for UpDesk',
             'installation-info' => 'We are happy to see you here!',
             'installation-title' => 'Welcome to Installation',
             'installation-wizard' => 'Installation Wizard language',
-            'title' => 'Krayin Installer',
-            'webkul' => 'Webkul',
+            'title' => 'UpDesk Installer',
+            'webkul' => 'GrayElement',
         ],
     ],
 ];

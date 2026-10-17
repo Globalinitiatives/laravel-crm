@@ -9301,7 +9301,7 @@
                     "email": "jitendra@webkul.com"
                 }
             ],
-            "description": "Krayin Package Generator",
+            "description": "UpDesk Package Generator",
             "support": {
                 "issues": "https://github.com/krayin/krayin-package-generator/issues",
                 "source": "https://github.com/krayin/krayin-package-generator/tree/v2.0.0"

@@ -4,7 +4,7 @@ import PersonsPage, { buildPersonData } from "../pages/PersonsPage";
 test.describe("person managment", async () => {
     /**
      * This spec builds its own person rather than importing the shared `personData`. Email and
-     * contact number are unique in Krayin, and the lead and quote specs create a person too — with
+     * contact number are unique in UpDesk, and the lead and quote specs create a person too — with
      * one shared object all three submit the same email and the later ones fail validation with
      * "The value has already been taken."
      *

@@ -1,7 +1,7 @@
 {
-    "name": "krayin/laravel-crm",
+    "name": "updesk/crm",
     "type": "project",
-    "description": "Krayin CRM",
+    "description": "UpDesk CRM",
     "keywords": [
         "framework",
         "laravel"

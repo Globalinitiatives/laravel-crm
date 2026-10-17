@@ -21,7 +21,7 @@ class ComposerEvents
     }
 
     /**
-     * Build the Krayin Cloud Hosting promotional box for the console output.
+     * Build the UpDesk Cloud Hosting promotional box for the console output.
      *
      * @return string
      */
@@ -32,13 +32,13 @@ class ComposerEvents
         $background = '#1d4ed8';
 
         $lines = [
-            ['★ KRAYIN CLOUD HOSTING', 'fg=#facc15;options=bold'],
+            ['★ UpDesk Cloud Hosting', 'fg=#facc15;options=bold'],
             ['', 'fg=#ffffff'],
-            ['Skip the server setup — run Krayin on fast, secure,', 'fg=#ffffff'],
+            ['Skip the server setup — run UpDesk on fast, secure,', 'fg=#ffffff'],
             ['cost-effective managed hosting that scales on demand.', 'fg=#ffffff'],
             ['Launch in minutes, without the infrastructure overhead.', 'fg=#ffffff'],
             ['', 'fg=#ffffff'],
-            ['→ https://krayincrm.com/crm-cloud-hosting/', 'fg=#bae6fd;options=bold'],
+            ['→ https://updeskcrm.com/cloud-hosting/', 'fg=#bae6fd;options=bold'],
         ];
 
         $blankRow = "<bg={$background}>".str_repeat(' ', $width).'</>';

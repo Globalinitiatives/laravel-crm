@@ -6,7 +6,7 @@ use Exception;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
-use Webkul\Installer\Database\Seeders\DatabaseSeeder as KrayinDatabaseSeeder;
+use Webkul\Installer\Database\Seeders\DatabaseSeeder as UpDeskDatabaseSeeder;
 
 class DatabaseManager
 {
@@ -79,7 +79,7 @@ class DatabaseManager
      */
     public function markInstallationInProgress(): void
     {
-        @file_put_contents(storage_path('installing'), 'Krayin installation in progress');
+        @file_put_contents(storage_path('installing'), 'UpDesk installation in progress');
     }
 
     /**
@@ -189,7 +189,7 @@ class DatabaseManager
     public function seeder($data)
     {
         try {
-            app(KrayinDatabaseSeeder::class)->run([
+            app(UpDeskDatabaseSeeder::class)->run([
                 'default_locale' => $data['parameter']['default_locales'],
                 'default_currency' => $data['parameter']['default_currency'],
             ]);

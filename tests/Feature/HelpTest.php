@@ -9,7 +9,7 @@ it('shows the help page to an authenticated admin', function () {
         ->assertSee('Help & Resources')
         ->assertSee('Cloud Hosting')
         ->assertSee('Extensions')
-        ->assertSee('krayincrm.com/cloud-hosting')
+        ->assertSee('updeskcrm.com/cloud-hosting')
         ->assertSee('Still need a hand?')
         ->assertSee('Community Forums')
         ->assertSee('Video Tutorials');
