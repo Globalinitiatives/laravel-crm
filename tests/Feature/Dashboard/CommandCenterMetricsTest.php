@@ -89,8 +89,9 @@ test('new leads counts creations in period and excludes out-of-window', function
 
     $kpis = app(CommandCenter::class)->kpis(ccRange(), $this->pipeline->id, null);
 
+    // comparison window = Oct 2-31 (equal-length, immediately preceding) -> includes the Oct-26 lead
     expect($kpis['new_leads']['value'])->toBe(2)
-        ->and($kpis['new_leads']['previous'])->toBe(0);
+        ->and($kpis['new_leads']['previous'])->toBe(1);
 });
 
 test('won deals are closed_at based, not creation based', function () {

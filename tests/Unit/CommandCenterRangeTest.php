@@ -26,7 +26,7 @@ test('this week starts on monday and compares to last week', function () {
     $r = CommandCenter::resolveRange('this_week', null, null, 'UTC');
     expect($r['start']->dayOfWeekIso)->toBe(1)
         ->and($r['prev_start']->dayOfWeekIso)->toBe(1)
-        ->and($r['prev_start']->diffInDays($r['start']))->toBe(7);
+        ->and((int) $r['prev_start']->diffInDays($r['start']))->toBe(7);
 });
 
 test('month quarter year boundaries', function () {
