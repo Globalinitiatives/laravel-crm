@@ -62,6 +62,9 @@ test('unknown period falls back to this month', function () {
 
 test('comparison window is always immediately preceding and equal length', function () {
     $r = CommandCenter::resolveRange('this_month', null, null, 'UTC');
-    $len = $r['start']->diffInDays($r['end']) + 1;
-    expect($r['prev_end']->copy()->addDays($len)->toDateString())->toBe($r['start']->toDateString());
+    $curLen = $r['start']->copy()->startOfDay()->diffInDays($r['end']->copy()->startOfDay()) + 1;
+    $prevLen = $r['prev_start']->copy()->startOfDay()->diffInDays($r['prev_end']->copy()->startOfDay()) + 1;
+
+    expect((int) $prevLen)->toBe((int) $curLen)
+        ->and($r['prev_end']->copy()->addDay()->startOfDay()->toDateString())->toBe($r['start']->copy()->startOfDay()->toDateString());
 });
