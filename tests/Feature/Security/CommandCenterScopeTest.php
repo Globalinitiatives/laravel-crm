@@ -14,7 +14,6 @@ uses(DatabaseTransactions::class);
  * against leads owned by two different users, and the returned numbers themselves (not just
  * HTTP status) must differ accordingly.
  */
-
 function ccScopeUser(string $viewPermission): User
 {
     $role = Role::create([
