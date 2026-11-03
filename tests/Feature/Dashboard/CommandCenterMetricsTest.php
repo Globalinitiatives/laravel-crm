@@ -199,6 +199,6 @@ test('stale days helper defaults to seven', function () {
     expect(CommandCenter::staleDays())->toBe(7);
 });
 
-teardown(function () {
+afterEach(function () {
     Carbon::setTestNow();
 });
